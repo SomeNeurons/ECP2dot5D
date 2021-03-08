@@ -35,9 +35,9 @@ if __name__ == '__main__':
 
     for index in range(1, 60):
         city = 'amsterdam'
-        label = './resources/data/labels/day/labels/train/amsterdam/amsterdam_{:05d}.json'.format(index)
-        img = './resources/data/imgs/day/img/train/amsterdam/amsterdam_{:05d}.png'.format(index)
-        pc = './resources/data/pcs/day_train_amsterdam/amsterdam_{:05d}.pkl'.format(index)
+        label = './resources/data/day/labels/train/amsterdam/amsterdam_{:05d}.json'.format(index)
+        img = './resources/data/day/imgs/train/amsterdam/amsterdam_{:05d}.png'.format(index)
+        pc = './resources/data/day/pcs/train/amsterdam/amsterdam_{:05d}.pkl'.format(index)
 
         demo = Demo(city, label, img, pc)
         demo.start()
