@@ -17,7 +17,7 @@ EXTRACTION_ROOT="./resources/data/"
 TMP_DOWNLOAD_LOCATION="/tmp/"
 
 # DO NOT CHANGE
-BASE_URL="http://eurocity-dataset.tudelft.nl//eval/downloadFiles/downloadFile/ecpz?file=ecpdata%2Fecp2dot5%2Fecpz_pc%2Fper_city%2"
+BASE_URL="http://eurocity-dataset.tudelft.nl//eval/downloadFiles/downloadFile/ecpz?file=ecpdata%2Fecp2dot5%2Fecpz_pc%2Fper_city%2F"
 
 touch failed_to_download.log
 
